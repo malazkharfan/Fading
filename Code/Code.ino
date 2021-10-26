@@ -1,15 +1,16 @@
 // Fading
 //
-// External LED should be fading after being plugged in.
+// External LED should be fading after being plugged 
 
-// Variables 
+// Constants Variables 
 const int LED_PIN=6;
 const int MAX_BRIGHTNESS=255;
 const int MIN_BRIGHTNESS=0;
 const int WAIT=30;
+
+// Variables
 int brightness=0;
 int fadeAmount=-1;
-
 
 void setup() {
   // pin6 has been declared as an output.
